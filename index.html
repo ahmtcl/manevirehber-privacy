@@ -50,59 +50,44 @@ ul {
 
 <h1>Manevi Rehber Gizlilik Politikası</h1>
 
-<p>Son Güncelleme Tarihi: 2026</p>
+<p>Son güncelleme: 29 Ekim 2026. Bu politika, Manevi Rehber'in Android ve iOS 1.6.1 (33) sürümündeki veri işleme süreçlerini açıklar.</p>
 
-<p>Manevi Rehber uygulaması, kullanıcı gizliliğine büyük önem verir. Bu politika, uygulama içerisinde toplanan verilerin nasıl işlendiğini ve korunduğunu açıklamaktadır.</p>
-
-<h2>1. Toplanan Veriler</h2>
-
-<p>Uygulama aşağıdaki verileri işleyebilir:</p>
+<h2>1. İşlenen veriler ve kullanım amaçları</h2>
 
 <ul>
-<li><strong>Konum Bilgisi:</strong> Namaz saatlerini doğru gösterebilmek için kullanılır.</li>
-<li><strong>Abonelik Bilgileri:</strong> Aylık veya yıllık abonelik işlemleri Google Play üzerinden gerçekleştirilir.</li>
+<li><strong>Hesap ve profil:</strong> E-posta ve şifreyle veya Google hesabıyla oturum açabilirsiniz. Kayıtta ad soyad, e-posta adresi ve girmeniz hâlinde telefon numarası işlenir. Google ile girişte Google'ın sağladığı ad ve e-posta bilgileri kullanılır. Misafir kullanımında da anonim bir Firebase hesabı ve kullanıcı kimliği oluşabilir.</li>
+<li><strong>Uygulama kayıtları:</strong> Profil, seçtiğiniz kişisel tercihler ve uygulamada oluşturduğunuz hedef, plan ve ibadet kayıtları hesabınızla ilişkilendirilebilir. Bu kayıtlar ilgili özellikleri sunmak için kullanılır.</li>
+<li><strong>Konum:</strong> İzin verdiğinizde uygulama, namaz ve iftar vakitleri ile bulunduğunuz yerin adını göstermek için cihaz konumunu kullanır. Android'de hassas veya yaklaşık, iOS'ta uygulama kullanılırken konum izni istenebilir; arka planda sürekli konum takibi amaçlanmaz. Vakit sorgularında koordinatlar Aladhan hizmetine, yer adı sorgusunda OpenStreetMap Nominatim hizmetine gönderilebilir. Bazı konum adı sorguları ipapi.co üzerinden IP adresine dayalı yapılabilir. Konum iznini cihaz ayarlarından kapatabilirsiniz; konuma bağlı özellikler etkilenebilir.</li>
+<li><strong>Bildirimler:</strong> İzin verdiğinizde namaz vakti ve hatırlatma bildirimleri gösterilir. Firebase Cloud Messaging, cihazın bildirim belirtecini ve konu aboneliklerini kullanarak uzaktan bildirim iletebilir. Bazı hatırlatmalar cihazda yerel olarak zamanlanır. Bildirim iznini cihaz ayarlarından, ilgili tercihleri uygulamadan yönetebilirsiniz.</li>
+<li><strong>Premium:</strong> Aylık ve yıllık abonelikler, cihazınıza göre Apple App Store veya Google Play üzerinden satın alınır ve geri yüklenir. Ürün kimliği, satın alma belirteci ve hak durumuna ilişkin bilgiler Premium erişimini belirlemek için cihazda ve ilgili hesap kayıtlarında işlenebilir. Ödeme kartı bilgilerini uygulama toplamaz; ödeme ve mağaza aboneliği ilgili mağaza tarafından yönetilir.</li>
+<li><strong>Manevi asistan:</strong> Bu özelliğe yazdığınız metin, öneri üretmek amacıyla Google Gemini hizmetine gönderilir. Bu alana paylaşmak istemediğiniz kişisel bilgileri yazmayın.</li>
 </ul>
 
-<p>Uygulama aşağıdaki verilere erişmez:</p>
+<h2>2. Kullanılan hizmetler ve veri paylaşımı</h2>
 
-<ul>
-<li>Kamera</li>
-<li>Mikrofon</li>
-<li>Kişiler (Rehber)</li>
-<li>Fotoğraflar veya medya dosyaları</li>
-</ul>
+<p>Kimlik doğrulama, hesap kayıtları ve bildirimler için Google Firebase hizmetleri kullanılır. Google ile giriş, Google hesabı üzerinden yürütülür. Satın alma ve abonelik işlemleri Apple veya Google mağazası üzerinden yapılır. Konuma bağlı sorgular ile manevi asistan için yukarıda belirtilen dış hizmetlere ilgili istek verileri iletilir. Bu hizmetlerin kendi gizlilik koşulları da geçerlidir. Uygulamanın işleyişi için gerekli bu aktarımlar dışında verilerin reklam amacıyla satıldığına ilişkin bir uygulama işleyişi bulunmamaktadır.</p>
 
-<h2>2. Verilerin Kullanım Amacı</h2>
+<h2>3. Saklama ve güvenlik</h2>
 
-<p>Toplanan veriler yalnızca aşağıdaki amaçlarla kullanılır:</p>
+<p>Hesap ve ilişkili kayıtlar Firebase Authentication ve Cloud Firestore üzerinde; bazı tercihler, oturum ve Premium bilgileri cihazda tutulur. Erişim, kimlik doğrulama ve Firebase güvenlik kurallarıyla sınırlandırılır. Hesap silme sonrasında uygulamadaki ilgili sunucu kayıtları ve cihazdaki kişisel oturum verileri temizlenir. Mağazaların kendi işlem kayıtları ve bağımsız hizmetlerin kayıtları bu işlemle otomatik olarak silinmez.</p>
 
-<ul>
-<li>Namaz saatlerini doğru hesaplamak</li>
-<li>Abonelik işlemlerini yönetmek</li>
-<li>Uygulama performansını iyileştirmek</li>
-</ul>
+<h2>4. Hesap silme ve abonelikler</h2>
 
-<h2>3. Veri Paylaşımı</h2>
+<p>Profil → Hesap Ayarları → <strong>Hesabımı Sil</strong> yolundan hesabınızı silebilirsiniz. Açık onay ve gerektiğinde yeniden kimlik doğrulama istenir. Firebase Authentication hesabı; kullanıcı profili, hesap erişim kaydı, hesaba bağlı kişisel kayıtlar ve kullanıcıya ayrılmış dosya alanları sunucu tarafında silinir. Anonim Firebase misafir hesabı da bu yolla silinebilir. İşlem yarım kalırsa uygulama durumu gösterir ve güvenli biçimde yeniden denenebilir. Ayrıcalıklı yönetici veya inceleme hesaplarında ek doğrulama uygulanır. Ayrıntılar için <a href="delete-account.html">hesap silme sayfasına</a> bakın.</p>
 
-<p>Kullanıcı verileri üçüncü taraflarla paylaşılmaz. Ödeme işlemleri Google Play altyapısı üzerinden güvenli şekilde gerçekleştirilir.</p>
+<p><strong>Hesabı silmek etkin mağaza aboneliğini iptal etmez.</strong> Aboneliğinizi ayrıca <a href="https://apps.apple.com/account/subscriptions">Apple abonelikleri</a> veya <a href="https://play.google.com/store/account/subscriptions">Google Play abonelikleri</a> bölümünden yönetin. Uygulamayı kaldırmak da hesabı veya aboneliği silmez.</p>
 
-<h2>4. Veri Güvenliği</h2>
+<h2>5. KVKK kapsamındaki haklarınız</h2>
 
-<p>Tüm veriler ilgili veri koruma mevzuatına uygun şekilde işlenir ve korunur. Kullanıcı bilgileri güvenli sunucularda saklanır.</p>
+<p>6698 sayılı Kişisel Verilerin Korunması Kanunu'nun 11. maddesi kapsamında, size ilişkin kişisel verilerin işlenip işlenmediğini öğrenme; işlenmişse bilgi isteme; işleme amacını öğrenme; aktarıldığı üçüncü kişileri bilme; yanlış veya eksik verilerin düzeltilmesini, şartları oluştuğunda silinmesini veya yok edilmesini isteme ve kanunda sayılan diğer haklarınız için başvurabilirsiniz. Başvurularınızın incelenebilmesi için kimliğinizin doğrulanması gerekebilir. Hakların kapsamı ve başvuru usulü hakkında <a href="https://www.kvkk.gov.tr/Icerik/2036/Ilgili-Kisinin-Haklari">Kişisel Verileri Koruma Kurumu açıklamasına</a> bakabilirsiniz.</p>
 
-<h2>5. Çocukların Gizliliği</h2>
+<h2>6. Çocukların gizliliği</h2>
 
-<p>Uygulama genel kitleye yöneliktir ve 13 yaş altı çocuklara özel olarak tasarlanmamıştır.</p>
-
-<h2>6. Kullanıcı Hakları</h2>
-
-<p>Kullanıcılar uygulamayı kaldırarak veri kullanımını sonlandırabilirler.</p>
+<p>Uygulama genel kitleye yöneliktir; çocuklara özel olarak tasarlanmamıştır.</p>
 
 <h2>7. İletişim</h2>
 
-<p>Gizlilik politikası hakkında sorularınız için bizimle iletişime geçebilirsiniz:</p>
-
-<p><strong>E-posta:</strong> info@manevirehber.com</p>
+<p>Gizlilik veya kişisel verilerinizle ilgili sorularınız ve talepleriniz için <strong>info@manevirehber.com</strong> adresine yazabilirsiniz.</p>
 
 <div class="footer">
 © 2026 Manevi Rehber. Tüm hakları saklıdır.
